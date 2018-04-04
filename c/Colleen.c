@@ -1,0 +1,2 @@
+#include<stdio.h>
+/*quine*/int print(char*s){printf(s,10,34,s,34);return 0;}int main(){/*hello*/char*s="#include<stdio.h>%c/*quine*/int print(char*s){printf(s,10,34,s,34);return 0;}int main(){/*hello*/char*s=%c%s%c;return print(s);}";return print(s);}
